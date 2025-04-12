@@ -72,7 +72,7 @@ The dataset comprises multiple tables containing details of users, posts, likes,
 1. Clone the repository.
 2. Import the dataset into your local SQL database.
 3. Use any SQL IDE (e.g., MySQL Workbench, DBeaver) to execute the queries.
-4. Analyze the outputs and document the insights.
+4. Analyze the outputs.
 
 ##  Folder Structure
 ```
