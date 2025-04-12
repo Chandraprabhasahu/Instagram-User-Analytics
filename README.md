@@ -74,14 +74,14 @@ The dataset comprises multiple tables containing details of users, posts, likes,
 3. Use any SQL IDE (e.g., MySQL Workbench, DBeaver) to execute the queries.
 4. Analyze the outputs and document the insights.
 
-## 📁 Folder Structure
+##  Folder Structure
 ```
-📦Instagram-User-Analytics
- ┣ 📂SQL_Queries
- ┃ ┣ 📜marketing_analysis.sql
- ┃ ┣ 📜investor_metrics.sql
- ┣ 📜README.md
- ┗ 📜insights_summary.md
+Instagram-User-Analytics
+ ┣ SQL_Queries
+ ┃ ┣ marketing_analysis.sql
+ ┃ ┣ investor_metrics.sql
+ ┣ README.md
+ ┗ insights_summary.md
 ```
 
 ## Conclusion
