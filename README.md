@@ -1,51 +1,94 @@
-## Instagram-User-Analytics
+# Instagram User Analytics Project
 
-Imagine you're a data analyst working with the product team at Instagram. Your role involves analyzing user interactions and engagement with the Instagram app to provide valuable insights that can help the business grow.
-User analysis involves tracking how users engage with a digital product, such as a software application or a mobile app. The insights derived from this analysis can be used by various teams within the business. For example, the marketing team might use these insights to launch a new campaign, the product team might use them to decide on new features to build, and the development team might use them to improve the overall user experience.
+##  Overview
+This project simulates a real-world scenario where you take on the role of a Data Analyst working alongside Instagram's product team. Your core responsibility is to analyze user behavior and engagement on the platform. The insights derived from this project will help stakeholders, including the marketing, product, and development teams, make strategic, data-informed decisions that impact platform growth and user experience.
 
-the goal of this project is to use your SQL skills to extract meaningful insights from the data. Your findings could potentially influence the future development of one of the world's most popular social media platforms.
+Instagram is one of the most widely used social media platforms in the world. Understanding how users interact with the platform is crucial to ensure it remains engaging and relevant. This project uses SQL to extract actionable insights from a relational database, targeting key business objectives.
+
+##  Objective
+Use SQL skills to:
+- Analyze user interaction and engagement on Instagram.
+- Generate data-driven insights for marketing campaigns, product development, and investor reporting.
+- Simulate real-life data analyst tasks through various case scenarios.
+
+##  Dataset Description
+The dataset comprises multiple tables containing details of users, posts, likes, and hashtags on Instagram. These tables mimic real Instagram backend structures, such as:
+- `users`: Information about Instagram users.
+- `photos`: Photo posts made by users.
+- `likes`: Data on which users liked which photos.
+- `hashtags`: Hashtags used in photo posts.
+
+##  SQL Tasks
+
+### A) Marketing Analysis
+
+#### 1. Loyal User Reward
+**Objective**: Identify the five oldest users on Instagram.
+**SQL Task**: Write a query to sort users by registration date and return the top five.
+
+#### 2. Inactive User Engagement
+**Objective**: Target users who have never posted.
+**SQL Task**: Identify users who are registered but have never posted a photo.
+
+#### 3. Contest Winner Declaration
+**Objective**: Find the most liked photo and declare the winner.
+**SQL Task**: Determine the photo with the highest likes and return the associated user's details.
+
+#### 4. Hashtag Research
+**Objective**: Discover trending hashtags.
+**SQL Task**: List the top five most used hashtags across all posts.
+
+#### 5. Ad Campaign Launch
+**Objective**: Identify optimal ad campaign timing.
+**SQL Task**: Determine the day of the week with the highest user registrations.
+
+### B) Investor Metrics
+
+#### 1. User Engagement
+**Objective**: Measure posting activity of users.
+**SQL Task**: Calculate average posts per user and overall platform activity.
+
+#### 2. Bots & Fake Accounts
+**Objective**: Detect suspicious user activity.
+**SQL Task**: Identify users who liked every single photo on Instagram, indicating potential bot behavior.
+
+##  Outcomes & Business Impact
+- Helped the marketing team identify highly engaged users and ideal campaign launch periods.
+- Provided insights into inactive user segments for re-engagement strategies.
+- Supported investor confidence by measuring real engagement and identifying bot-like behavior.
+- Supplied product managers with hashtag usage trends and user behavior patterns for feature planning.
+
+##  Key Learnings
+- Applied complex SQL queries involving joins, aggregations, and subqueries.
+- Gained experience in translating business questions into data-driven answers.
+- Developed analytical thinking around product metrics and user engagement.
+
+##  Tools Used
+- SQL
+- MySQL (or any preferred SQL environment)
+- GitHub (for version control and project documentation)
+
+##  How to Run the Project
+1. Clone the repository.
+2. Import the dataset into your local SQL database.
+3. Use any SQL IDE (e.g., MySQL Workbench, DBeaver) to execute the queries.
+4. Analyze the outputs and document the insights.
+
+## 📁 Folder Structure
+```
+📦Instagram-User-Analytics
+ ┣ 📂SQL_Queries
+ ┃ ┣ 📜marketing_analysis.sql
+ ┃ ┣ 📜investor_metrics.sql
+ ┣ 📜README.md
+ ┗ 📜insights_summary.md
+```
+
+## Conclusion
+
+This project demonstrates how data-driven strategies using SQL can significantly impact business decisions in product management, marketing, and investor relations. By uncovering meaningful insights from user behavior data, businesses like Instagram can optimize engagement, tailor campaigns, and ensure platform integrity. These skills and analytical approaches are directly transferable to real-world scenarios in data analytics roles.
 
 
-## SQL Tasks :  
 
-## A) Marketing Analysis:
-
-
-## 1. Loyal User Reward:  
-   The marketing team wants to reward the most loyal users, i.e., those who have been using the platform for the longest time.  
-   Your Task: Identify the five oldest users on Instagram from the provided database.
-
-## 2. Inactive User Engagement:  
- The team wants to encourage inactive users to start posting by sending them promotional emails.  
-   Your Task: Identify users who have never posted a single photo on Instagram.
-
-## 3. Contest Winner Declaration:  
- The team has organized a contest where the user with the most likes on a single photo wins.  
-   Your Task: Determine the winner of the contest and provide their details to the team.
-
-## 4. Hashtag Research:
-   A partner brand wants to know the most popular hashtags to use in their posts to reach the most people.  
-   Your Task: Identify and suggest the top five most commonly used hashtags on the platform.
-
-## 5. Ad Campaign Launch:  
-   The team wants to know the best day of the week to launch ads.  
-   Your Task: Determine the day of the week when most users register on Instagram. Provide insights on when to schedule an ad campaign.
-
-   
-## B) Investor Metrics:
-
-
-## 1. User Engagement:  
-   Investors want to know if users are still active and posting on Instagram or if they are making fewer posts.  
-   Your Task: Calculate the average number of posts per user on Instagram. Also, provide the total number of photos on Instagram divided by the total number of users.
-
-## 2. Bots & Fake Accounts:  
-   Investors want to know if the platform is crowded with fake and dummy accounts.  
-   Your Task: Identify users (potential bots) who have liked every single photo on the site, as this is not typically possible for a normal user.  
-
-
-
-## Commands for Creating Database   
-
-[Click here](https://docs.google.com/document/d/1duyL8zFpS6mUqBWP2V7hxRIi0x4mQ5_7/edit?usp=sharing&ouid=109009397325426290832&rtpof=true&sd=true)
+---
 
